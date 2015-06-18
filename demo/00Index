@@ -1,0 +1,5 @@
+ExampleA     illustrating the output in a general regression case
+ExampleB     computing and plotting a few 2D quantile contours (advantageously)
+ExampleC     computing and plotting a 3D quantile contour (safely)
+ExampleD     performing parametric quantile regression
+ExampleE     performing local(ly) constant (nonparametric) quantile regression

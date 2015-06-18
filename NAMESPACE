@@ -1,0 +1,16 @@
+# Export top functions
+export(
+  getCTechSTM1u,
+  getCTechSTM2u,
+  getCharSTM1u,
+  getCharSTM2u,
+  compContourM1u,
+  compContourM2u,
+  evalContour
+)
+
+# Import all packages listed as Imports or Depends
+import(
+  lpSolve,
+  geometry
+)
