@@ -91,7 +91,7 @@ if (!all((AAMat%*%IPVec) -BBVec <= -EpsIP)){ #if IPVec is not well inside the co
     #solving the auxiliary linear programming problem
     lp0 <- lp("min", CCVec, ExtAAMat, array('==', dim=c(NRowAA,1)), BBVec)
     ZZVecP <- lp0$solution[1:NColAA]; ZZVecM <- lp0$solution[(NColAA+1):(2*NColAA)];
-    IPVec <- ZZVecP-ZZVecM
+    IPVec <- matrix(ZZVecP-ZZVecM,NColAA,1)
 
     #checking the optimization results
     if ((lp0$status > 0)||(!all((AAMat%*%IPVec) -BBVec <= -EpsIP))){

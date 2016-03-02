@@ -51,7 +51,7 @@ the zero-centered hypercube of the edge length
 2 000 that is employed as an artificial bounding 
 box to avoid the problems with unbounded contours.  
 The regularization consists of rounding the vertices 
-(i.e. all of their coordinates) of such 
+(i.e., all of their coordinates) of such 
 an intersection to the seventh decimal digit and of 
 considering only the polytope determined by all 
 the distinct rounded vertices for the final analysis.  

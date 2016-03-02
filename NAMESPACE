@@ -14,3 +14,6 @@ import(
   lpSolve,
   geometry
 )
+importFrom("stats", "runif")
+importFrom("utils", "write.table")
+     

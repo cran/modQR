@@ -58,7 +58,7 @@ Furthemore, common problems related to the computation
 can fortunately be prevented or overcome easily.  
 
 \bold{Bad data} - the computation may fail if the processed 
-data points are in a bad configuration (i.e. if they are not 
+data points are in a bad configuration (i.e., if they are not 
 in general position or if they would lead to a quantile 
 hyperplane with at least one zero coefficient), which mostly 
 happens when discrete-valued/rounded/repeated observations, 
