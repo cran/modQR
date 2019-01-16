@@ -101,7 +101,7 @@ not meet false expectations.  Every user should be aware of
 the facts that the computation may take a long time or fail 
 even for moderately sized three-dimensional data sets, that the 
 \code{HypMat} component is not always present in the list 
-\code{COutST$CharST} by default, and that the sample regression 
+\code{COutST$CharST} by default, and that the sample regression
 quantile contours can be not only empty, but also unbounded and 
 crossing one another in the general regression case.  
 
@@ -125,11 +125,11 @@ nonparametric multiple-output quantile regression; see [09].
 \value{
 Both compContourM1u and compContourM2u may display some 
 auxiliary information regarding the computation on the screen 
-(if \code{CTechST$ReportI} = 1) or store their in-depth 
-output (determined by \code{CTechST$BriefOutputI}) in the output 
-files (if \code{CTechST$OutSaveI} = 1) with 
+(if \code{CTechST$ReportI} = 1) or store their in-depth
+output (determined by \code{CTechST$BriefOutputI}) in the output
+files (if \code{CTechST$OutSaveI} = 1) with
 the filenames beginning with the string contained in 
-\code{CTechST$OutFilePrefS}, followed by the file number 
+\code{CTechST$OutFilePrefS}, followed by the file number
 padded with zeros to form six digits 
 and by the extension \file{.dqo}, respectively.  The first 
 output file produced by \code{compContourM1u} would 
@@ -179,7 +179,7 @@ components that are method-specific):
               \code{PosVec[i]} = 0/1/2 if the \code{i}-th 
               observation is in/on/out of the contour.  
               If \code{compContourM2u} is used with 
-              \code{CTechST$SkipRedI} = 1, then \code{PosVec} 
+              \code{CTechST$SkipRedI} = 1, then \code{PosVec}
               correctly detects only all the outer observations.}
 
 \item{MaxLWidth}{the maximum width of one layer of the 

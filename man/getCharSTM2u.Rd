@@ -8,7 +8,7 @@
 The function computes some overall characteristics 
 of directional regression quantiles in the output 
 of \code{\link{compContourM2u}}, namely the list 
-\code{COutST$CharST}.  It makes possible 
+\code{COutST$CharST}.  It makes possible
 to obtain some useful information without saving 
 any file on the disk, and it can be easily modified 
 by the users according to their wishes. 
@@ -30,7 +30,7 @@ getCharSTM2u(Tau, N, M, P, BriefDQMat, CharST, IsFirst)
 \item{BriefDQMat}{the method-specific matrix containing 
                   the rows of a potential individual output 
                   file corresponding to 
-                  \code{CTechST$BriefOutputI} = 1. See 
+                  \code{CTechST$BriefOutputI} = 1. See
                   the details below.}
 
 \item{CharST}{the output list, updated with each run 
@@ -52,16 +52,16 @@ the output list \code{CharST}, and then
 it is called with \code{IsFirst} = 0 
 successively for the content of each potential 
 output file corresponding to 
-\code{CTechST$BriefOutputI} = 1, i.e., even if 
+\code{CTechST$BriefOutputI} = 1, i.e., even if
 the output file(s) are not stored on the disk owing to 
-\code{CTechST$OutSaveI} = 0.  
+\code{CTechST$OutSaveI} = 0.
 
 It still remains to describe in detail the content of possible 
 output files, describing the optimal conic segmentation of 
 the directional space that lies behind the optimization 
 problem involved.  
 
-If \code{CTechST$BriefOutputI} = 1, then the rows of such 
+If \code{CTechST$BriefOutputI} = 1, then the rows of such
 files are vectors of length \code{1+1+M+P*M+M} of the form 
 \code{c(ConeID, Nu, UVec, vec(ACOMat), MuBRow)} where 
 \describe{
@@ -96,7 +96,7 @@ Recall that \code{c(BVec, AVec)} stands for the coefficients
 of the regression quantile hyperplane associated with 
 \code{UVec} and always \code{BVec} = \code{UVec}.  
 
-If \code{CTechST$BriefOutputI} = 0, then the rows of the 
+If \code{CTechST$BriefOutputI} = 0, then the rows of the
 potential output file(s) are longer 
 (of length \code{1+1+P*M+M+P+P}) 
 because they contain two more vectors appended at the end.  

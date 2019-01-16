@@ -1,5 +1,5 @@
 e10292327c5404f088f95f3e7a2415c4 *ChangeLog
-b0a2c017d12cc8c571888041b5f85068 *DESCRIPTION
+cbf73241948641d0b2ea2f5bcbffe906 *DESCRIPTION
 2ac7610ccd23d5a479d1118ea38b4e9a *NAMESPACE
 9f9898b4992ff650f4a2919795a47de2 *R/addItem.R
 67a643cacc427188c433fa11362fdf63 *R/addRow.R
@@ -23,8 +23,8 @@ e8c5177c1c31fa2954cdc284dda96583 *R/findItem.R
 2104f19136a709bf14d70b42a8b9d5e6 *demo/ExampleC.R
 57cab66344e18b3a58a071e0931422d0 *demo/ExampleD.R
 7b00a340e817bd65416d7fae7a4c2e3c *demo/ExampleE.R
-a7c661e8d3c163d4a39622839694bea3 *man/compContour.Rd
+11a31356a3785fd60b4510259253a1ce *man/compContour.Rd
 14413b7971a369e4f23d7f3adb4fae63 *man/evalContour.Rd
 2e28f6bcc0c231c625200bac322ecf64 *man/getCTechST.Rd
-a5d586367b28a89d15109e5de95d9236 *man/getCharSTM1u.Rd
-d50baa6b4c604332bd2fde55e4d81bda *man/getCharSTM2u.Rd
+1c7ec98ae3d10e0c7cb96f754e934afd *man/getCharSTM1u.Rd
+75971ca12b806be6a98a94f9f804a2bd *man/getCharSTM2u.Rd
