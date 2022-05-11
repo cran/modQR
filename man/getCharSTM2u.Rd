@@ -152,22 +152,18 @@ components:
                   characteristics over all remaining vertex 
                   directions.  \cr
                   If \code{P} = 1, then \code{CharMaxMat} has 
-                  only two rows: 
-                  \describe{
-                  \item{}{\code{c(UVec, max(Psi))}, and}
-                  \item{}{\code{c(UVec, max(|MuBRow|))},}
-                  }
+                  only two rows: \cr 
+                  \code{c(UVec, max(Psi))}, and \cr
+                  \code{c(UVec, max(|MuBRow|))}, \cr
                   respectively.  \cr
                   If \code{P} > 1, then the rows of 
-                  \code{CharMaxMat} are as follows: 
-                  \describe{
-                  \item{}{\code{c(UVec, max(|Psi|))},}
-                  \item{}{\code{c(UVec, max(MuBRow))},}
-                  \item{}{\code{c(UVec, max(|c(a_2,...,a_P)|))},}
-                  \item{}{\code{c(UVec, max(|a_2|))},}
-                  \item{}{\code{...},}
-                  \item{}{\code{c(UVec, max(|a_P|))},}
-                  }
+                  \code{CharMaxMat} are as follows: \cr 
+                  \code{c(UVec, max(|Psi|))}, \cr
+                  \code{c(UVec, max(MuBRow))}, \cr
+                  \code{c(UVec, max(|c(a_2,...,a_P)|))}, \cr
+                  \code{c(UVec, max(|a_2|))}, \cr
+                  \code{...}, \cr
+                  \code{c(UVec, max(|a_P|))}, \cr
                   respectively.  If \code{P} = 2, 
                   then the last row is missing for not 
                   being included twice. 
@@ -178,19 +174,15 @@ components:
                   characteristics over all remaining vertex 
                   directions.  \cr
                   If \code{P} = 1, then \code{CharMinMat} has 
-                  only two rows: 
-                  \describe{
-                  \item{}{\code{c(UVec, min(Psi))}, and}
-                  \item{}{\code{c(UVec, min(|MuBRow|))},}
-                  }
+                  only two rows: \cr 
+                  \code{c(UVec, min(Psi))}, and \cr
+                  \code{c(UVec, min(|MuBRow|))}, \cr
                   respectively.  \cr
                   If \code{P} > 1, then \code{CharMinMat} 
-                  has three rows: 
-                  \describe{
-                  \item{}{\code{c(UVec, min(Psi))},}
-                  \item{}{\code{c(UVec, min(|MuBRow|))}, and}
-                  \item{}{\code{c(UVec, min(|c(a_2,...,a_P)|))},}
-                  }
+                  has three rows: \cr 
+                  \code{c(UVec, min(Psi))}, \cr
+                  \code{c(UVec, min(|MuBRow|))}, and \cr
+                  \code{c(UVec, min(|c(a_2,...,a_P)|))}, \cr
                   respectively.}
 
 Note that \code{||} symbolizes the Euclidean norm, 

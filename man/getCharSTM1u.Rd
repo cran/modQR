@@ -162,27 +162,23 @@ components:
                   characteristics over all remaining vertex 
                   directions.  \cr
                   If \code{P} = 1, then \code{CharMaxMat} has 
-                  only three rows:
-                  \describe{
-                  \item{}{\code{c(UVec, max(|BVec|))},}
-                  \item{}{\code{c(UVec, max(Lambda))}, and}
-                  \item{}{\code{c(UVec, max(Lambda/|BVec|))},}
-                  }
-                  respectively.  \cr
+                  only three rows: \cr
+                  \code{c(UVec, max(|BVec|))}, \cr
+				  \code{c(UVec, max(Lambda))}, and \cr
+				  \code{c(UVec, max(Lambda/|BVec|))}, \cr
+				  respectively.  \cr
                   If \code{P} > 1, then the rows of 
-                  \code{CharMaxMat} are as follows:
-                  \describe{
-                  \item{}{\code{c(UVec, max(|BVec|))},}
-                  \item{}{\code{c(UVec, max(Lambda))},}
-                  \item{}{\code{c(UVec, max(Lambda/|BVec|))},}
-                  \item{}{\code{c(UVec, max(|c(a_2,...,a_P)|))},}
-                  \item{}{\code{c(UVec, max(|c(a_2,...,a_P)|/|BVec|))},}
-                  \item{}{\code{c(UVec, max(|a_2|))},}
-                  \item{}{\code{c(UVec, max(|a_2|/|BVec|))},}
-                  \item{}{\code{...},}
-                  \item{}{\code{c(UVec, max(|a_P|))}, and}
-                  \item{}{\code{c(UVec, max(|a_P|/|BVec|))},}
-                  }
+                  \code{CharMaxMat} are as follows: \cr
+                  \code{c(UVec, max(|BVec|))}, \cr
+                  \code{c(UVec, max(Lambda))}, \cr
+                  \code{c(UVec, max(Lambda/|BVec|))}, \cr
+                  \code{c(UVec, max(|c(a_2,...,a_P)|))}, \cr
+                  \code{c(UVec, max(|c(a_2,...,a_P)|/|BVec|))}, \cr
+                  \code{c(UVec, max(|a_2|))}, \cr
+                  \code{c(UVec, max(|a_2|/|BVec|))}, \cr
+                  \code{...}, \cr
+                  \code{c(UVec, max(|a_P|))}, and \cr
+                  \code{c(UVec, max(|a_P|/|BVec|))}, \cr
                   respectively.  If \code{P} = 2, 
                   then the last two rows are missing for not 
                   being included twice.
@@ -193,22 +189,18 @@ components:
                   characteristics over all remaining vertex 
                   directions.  \cr
                   If \code{P} = 1, then \code{CharMinMat} has 
-                  only three rows:
-                  \describe{
-                  \item{}{\code{c(UVec, min(|BVec|))},}
-                  \item{}{\code{c(UVec, min(Lambda))}, and}
-                  \item{}{\code{c(UVec, min(Lambda/|BVec|))},}
-                  }
+                  only three rows: \cr
+                  \code{c(UVec, min(|BVec|))}, \cr
+                  \code{c(UVec, min(Lambda))}, and \cr
+                  \code{c(UVec, min(Lambda/|BVec|))}, \cr
                   respectively.  \cr
                   If \code{P} > 1, then \code{CharMinMat} 
-                  has five rows: 
-                  \describe{
-                  \item{}{\code{c(UVec, min(|BVec|))},}
-                  \item{}{\code{c(UVec, min(Lambda))},}
-                  \item{}{\code{c(UVec, min(Lambda/|BVec|))},}
-                  \item{}{\code{c(UVec, min(|c(a_2,...,a_P)|))}, and}
-                  \item{}{\code{c(UVec, min(|c(a_2,...,a_P)|/|BVec|))},}
-                  }
+                  has five rows: \cr 
+                  \code{c(UVec, min(|BVec|))}, \cr
+                  \code{c(UVec, min(Lambda))}, \cr
+                  \code{c(UVec, min(Lambda/|BVec|))}, \cr
+                  \code{c(UVec, min(|c(a_2,...,a_P)|))}, and \cr
+                  \code{c(UVec, min(|c(a_2,...,a_P)|/|BVec|))}, \cr
                   respectively.}
 
 Note that \code{||} symbolizes the Euclidean norm, 

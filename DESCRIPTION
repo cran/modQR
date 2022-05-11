@@ -1,7 +1,7 @@
 Package: modQR
 Encoding: UTF-8
-Version: 0.1.2
-Date: 2019-01-15
+Version: 0.1.3
+Date: 2022-05-03
 Title: Multiple-Output Directional Quantile Regression
 Authors@R: c(person("Miroslav","Šiman", role=c("aut")),
   person("Pavel","Boček", role=c("aut", "cre"), email="bocek@utia.cas.cz"))
@@ -17,7 +17,7 @@ Description: Contains basic tools for performing
   regression quantile contours by means of directional
   regression quantiles. In the location case, one can thus
   obtain halfspace depth contours in two to six dimensions.
-  Hallin, M., Paindaveine, D. and Siman, M. (2010)
+  Hallin, M., Paindaveine, D. and Šiman, M. (2010)
   Multivariate quantiles and multiple-output regression quantiles:
   from L1 optimization to halfspace depth. Annals of Statistics 38, 635-669
   For more references about the method, see Help pages.
@@ -32,5 +32,5 @@ Collate: addItem.R findItem.R delItem.R addRow.R findRow.R checkArray.R
         findOptimalBasisM2FromScratch.R compContourM1u.R
         compContourM2u.R evalContour.R
 NeedsCompilation: no
-Packaged: 2019-01-16 11:44:58 UTC; bocek
-Date/Publication: 2019-01-16 14:50:07 UTC
+Packaged: 2022-05-03 07:25:32 UTC; bocek
+Date/Publication: 2022-05-11 12:10:07 UTC
